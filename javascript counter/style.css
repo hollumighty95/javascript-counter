@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    background: url(img/counter.jpg);
+    background-repeat: no-repeat;
+    background-position-x: center;
+}
+
+.main-container {
+    height: 520px;
+    width: 410px;
+    border: 2px solid white;
+    margin-bottom: 45px;
+    margin-left: 20px;
+    background-color: #b59469;
+    box-shadow: black 0px 10px 10px;
+}
+
+.container {
+    display: grid;
+    place-items: center;
+    padding: 60px;
+}
+
+.container h1 {
+    color: white;
+    padding-bottom: 50px;
+    font-size: 40px;
+}
+
+#counterValue {
+    color: white;
+    font-size: 150px;
+    color: green;
+}
+
+.buttons {
+    display: grid;
+    place-items: center;
+    align-content: center;
+    
+}
+
+button {
+    background-color: #053380;
+    padding: 10px;
+    font-size: 15px;
+    color: white;
+    border-radius: 5px;
+    border-style: none;
+    cursor: pointer;
+    box-shadow: black 0px 5px 10px;
+}
+
